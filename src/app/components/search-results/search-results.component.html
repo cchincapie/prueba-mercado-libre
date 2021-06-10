@@ -1,0 +1,16 @@
+<div
+  *ngIf="searchResult"
+  class="row no-gutters mb-5 justify-content-center">
+  <!-- PATH CATEGORIAS -->
+  <div
+    class="col-10 py-sm">
+    <app-category-path [categories]="itemService.categories"></app-category-path>
+  </div>
+  <!-- ITEMS -->
+  <div
+    class="col-10 px-0"
+    *ngFor="let item of searchResult.items; let i = index;">
+    <!-- ITEM -->
+    <app-item [item]="item"></app-item>
+  </div>
+</div>
