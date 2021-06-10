@@ -1,3 +1,5 @@
-Angular app for a Mercado Libre frontend test
+Prueba FrontEnd Mercado Libre
 
-Installation: npm install then ng serve
+Instalación: npm install
+
+Iniciar proyecto: ng serve
